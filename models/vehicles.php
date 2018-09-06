@@ -6,10 +6,14 @@ class vehicles extends database {
         parent::__construct();
     }
 
+    /* Je crée ma méthode addNewVehicle */
     public function addNewVehicle() {
+        /* Je prépare ma requête avec les marqueurs nominatifs */
         $addVehicleQuery = 'INSERT INTO `g2c6d_vehicles` (`serialNumber`, `firstRegistrationDate`, `vehicleModels`, `vehicleManufacturers`, `users`, `vehiclesTypes`, `energies`, `interiorPic`, `exteriorPic`) '
                 . 'VALUES (:serialNumber, STR_TO_DATE(:firstRegistrationDate, \'%d/%m/%Y\'), :vehicleModels, :vehicleManufacturers, :users, :vehicleTypes, :energies, :interiorPic, :exteriorPic)';
+        /* Je prépare ma requête en raison de la présence de marqueurs nominatifs */
         $addVehicle = $this->database->prepare($addVehicleQuery);
+        /* Les marqueurs nominatifs demande des bindValue qui permettent de remplir les paramètres d'objet */
         $addVehicle->bindValue(':serialNumber', $this->serialNumber, PDO::PARAM_STR);
         $addVehicle->bindValue(':firstRegistrationDate', $this->firstRegistrationDate, PDO::PARAM_STR);
         $addVehicle->bindValue(':vehicleModels', $this->vehicleModels, PDO::PARAM_INT);
