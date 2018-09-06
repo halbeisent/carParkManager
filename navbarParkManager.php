@@ -1,7 +1,7 @@
 <div class="navbar-fixed">
     <nav>
         <div class="nav-wrapper blue-grey darken-3">
-            <a href="#!" class="brand-logo">CarPark Manager - Gestionnaire</a>
+            <a href="#!" class="brand-logo">Gestionnaire</a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
                 <li><a href="dashboard.php">Tableau de bord utilisateur</a></li>
