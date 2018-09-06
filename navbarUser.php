@@ -8,7 +8,7 @@
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
                 <!-- Contenu de ma navbar -->
-                <li><a href="views/dashboard.php">Dashboard utilisateur</a></li>
+                <li><a href="views/dashboard.php">Tableau de bord utilisateur</a></li>
                 <li><a href="../controllers/logout.php">Déconnexion</a></li>
             </ul>
         </div>

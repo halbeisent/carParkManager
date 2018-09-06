@@ -3,7 +3,7 @@
 include 'models/database.php';
 include 'models/users.php';
 include 'controllers/loginController.php';
-$pageTitle = 'CarPark Manager - Connexion';
+$pageTitle = 'Connexion';
 $pageBackground = 'loginBody';
 include 'header.php';
 ?>

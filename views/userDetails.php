@@ -14,7 +14,7 @@ include $navbar;
             ?>
             <div class="center-align">
                 <div class="card-panel">
-                    <h5>Le nouvel utilisateur a bien été modifié</h5>
+                    <h5>La Modification de l'utilisateur s'est correctement effectuée</h5>
                     <a href="usersList.php" class="waves-effect waves-effect blue-grey darken-4 btn-large">Retour à la liste des utilisateurs</a>
                 </div>
             </div>

@@ -4,7 +4,7 @@
             <a href="#!" class="brand-logo">CarPark Manager - Administrateur</a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="dashboard.php">Dashboard utilisateur</a></li>
+                <li><a href="dashboard.php">Tableau de bord utilisateur</a></li>
                 <li><a href="usersList.php">Gestion des utilisateurs</a></li>
                 <li><a href="../controllers/logout.php">Déconnexion</a></li>
             </ul>

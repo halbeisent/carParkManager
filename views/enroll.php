@@ -19,7 +19,7 @@ if (!empty($_SESSION['userId'])) {
             ?>
             <div class="center-align">
                 <div class="card-panel">
-                    <h5>Le nouvel utilisateur a bien été enregistré</h5>
+                    <h5>L'inscription s'est bien passée</h5>
                     <a href="../index.php" class="waves-effect waves-effect blue-grey darken-4 btn-large">Veuillez vous connecter</a>
                 </div>
             </div>
