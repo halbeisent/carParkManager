@@ -1,12 +1,15 @@
 <?php
+/* J'inclus les ressources dont j'ai besoin */
 include '../models/database.php';
 include '../models/users.php';
 include '../models/vehicles.php';
 include '../models/checks.php';
+/* Je définis le nom de ma page et son fond */
 $pageTitle = 'Dashboard utilisateur';
 $pageBackground = 'userDashboardBody';
 include '../header.php';
 include '../controllers/dashboardController.php';
+/* J'inclus ma navbar en fonction du role utilisateur via sa variable */
 include $navbar;
 ?>
 <div class="jumbo"></div>
